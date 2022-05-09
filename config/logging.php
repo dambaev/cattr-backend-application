@@ -32,12 +32,12 @@ return [
         ],
         'single' => [
             'driver' => 'single',
-            'path' => storage_path('logs/laravel.log'),
+            'path' => '/var/log/cattr/laravel.log',
             'level' => env('APP_LOG_LEVEL', 'error'),
         ],
         'daily' => [
             'driver' => 'daily',
-            'path' => storage_path('logs/laravel.log'),
+            'path' => '/var/log/cattr/laravel.log',
             'level' => env('APP_LOG_LEVEL', 'error'),
             'days' => 7,
         ],
