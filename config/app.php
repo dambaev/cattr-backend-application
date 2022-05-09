@@ -17,7 +17,7 @@ return [
     'key' => env('APP_KEY'),
     'stats_collector_url' => env('STATS_COLLECTOR_URL'),
     'cipher' => 'AES-256-CBC',
-    'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'syslog'),
     'recaptcha' => [
         'enabled' => env('RECAPTCHA_ENABLED', false)
     ],
